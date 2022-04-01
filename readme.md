@@ -7,7 +7,7 @@
 
 [![Development Workflow](https://github.com/tpatel29/IS219-project2/actions/workflows/dev.yml/badge.svg)](https://github.com/tpatel29/IS219-project2/actions/workflows/dev.yml)
 
-* [Developmental Deployment](https://uber-eats-clone-is219-app.herokuapp.com)
+* [Developmental Deployment](https://uber-eats-clone-develop.herokuapp.com)
 
 ## Setting up CI/CD
 
