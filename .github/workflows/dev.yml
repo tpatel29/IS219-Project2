@@ -3,7 +3,7 @@ name: Development Workflow 3.8
 on:
   pull_request:
     branches:
-      - 'development'
+      - 'master'
 
 jobs:
   run_pytest:
@@ -28,6 +28,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "uber-eats-development" #Must be unique in Heroku
+          heroku_app_name: "project2-development" #Must be unique in Heroku
           heroku_email: "tejpatel595@gmail.com"
           usedocker: true
